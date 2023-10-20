@@ -1,0 +1,203 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F0E5;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DAC0A3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Create three columns using flexbox */
+
+.wrap {
+    width: 30%;
+    max-width: 300px;
+    float: right;
+    border: 1px solid #f5ebce;
+    margin-top: 1%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #FFF6DC;
+    font-size: 20px;
+}
+
+.content{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* background-color: #FFF6DC; */
+}
+
+/* Task 1: Text Color */
+.color-example h3{
+    color: #0073e6;
+}
+
+/* Task 2: Background Color */
+.color-example p{
+    background-color: #f0d98c;  
+}
+
+/* Task 1: Font Family and Size */
+.typography-example p {
+    font-family: 'Georgia', serif;
+}
+
+/* Task 2: Text Alignment and Line Height */
+.typography-example p{
+    text-align: right;
+    line-height: 1.6;
+}
+
+/* Task 1: ID Selector */
+.uniqueDiv{
+    background-color: #64b5f6;
+    font-size: 18px;
+}
+
+/* Task 2: Class Selector */
+.info{
+    border: 2px solid #4caf50;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Style the <ul> (unordered list) inside the navigation */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+        /* Style the list items (<li>) in the navigation */
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 10px; /* Add some space between list items */
+}
+
+/* Style the links (<a>) in the navigation */
+nav ul li a {
+     color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+.flex{
+    display:flex;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+/* Style the aside */
+.aside {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style the article element */
+article {
+    align-content: 1;
+    flex: 2;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style the article headings */
+article h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the article paragraphs */
+article p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Style links within the article */
+article a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+article .css{
+    border: 10px solid #1c1c1c;
+}
+
+/* Style the article links on hover */
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Add a box shadow on hover for the entire article */
+article:hover {
+    box-shadow: 2px 2px 5px #888888;
+}
+
+
+/* Add specific styling for the aside headings */
+aside h2 {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Add specific styling for the aside paragraphs */
+aside p {
+    color: #666;
+}
+
+.css{
+    display: none;
+}
+
+/* Designing footer */
+.footer{
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    color: #000; 
+    font-size: 20px; 
+    font-style: italic;
+}
+
+
+/* Use media queries to stack elements horizontally on larger screens */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    article {
+        flex: 2;
+    }
+
+    aside {
+        flex: 1;
+    }
+}
