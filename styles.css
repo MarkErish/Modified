@@ -188,7 +188,7 @@ aside p {
 
 
 /* Use media queries to stack elements horizontally on larger screens */
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .container {
         flex-direction: row;
     }
@@ -200,4 +200,4 @@ aside p {
     aside {
         flex: 1;
     }
-}
+}*/
