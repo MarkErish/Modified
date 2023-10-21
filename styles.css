@@ -107,7 +107,7 @@ nav ul li a {
 
 /* Style the aside */
 .aside {
-    flex: 1;
+    flex: 50%;
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
