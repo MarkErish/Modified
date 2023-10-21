@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: #F8F0E5;
 }
 header{
@@ -12,6 +12,7 @@ header{
     padding: 20px;
     font-size: 30px;
 }
+
 
 
 .wrap {
@@ -27,8 +28,8 @@ header{
 }
 
 .content{
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid #ccc;
     /* background-color: #FFF6DC; */
 }
@@ -63,7 +64,7 @@ header{
 /* Task 2: Class Selector */
 .info{
     border: 2px solid #4caf50;
-    padding: 10px;
+    padding: 1px;
 }
 
 
@@ -106,7 +107,7 @@ nav ul li a {
 
 /* Style the aside */
 .aside {
-    flex: 50%;
+    flex: 1;
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -119,25 +120,25 @@ nav ul li a {
 article {
     align-content: 1;
     flex: 2;
-    background-color: #ffffff;
     border: 1px solid #ccc;
-    margin: 10px;
+    margin: 11px;
     padding: 20px;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
 
 /* Style the article headings */
-article h2 {
+article h3 {
     color: #333;
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
 /* Style the article paragraphs */
 article p {
     color: #666;
-    line-height: 1.5;
+    line-height: 3;
+    font-size: 20px;
 }
 
 /* Style links within the article */
@@ -146,8 +147,10 @@ article a {
     text-decoration: none;
 }
 
-article .css{
-    border: 10px solid #1c1c1c;
+article section {
+    border: 2px solid #1c1c1c;
+    background-color: #ffffff;
+    padding: 50px ;
 }
 
 /* Style the article links on hover */
